@@ -2,17 +2,17 @@ import React from 'react'
 import { CiSearch } from "react-icons/ci";
 const Navbar1 = () => {
     return (
-        <div className='      px-36  flex items-center justify-between'>
+        <div className='       md:px-36 flex items-center justify-between'>
            <div className=' flex  items-center  gap-8 '> 
             
             <img src=" https://coursee.org/utils/logo.svg" alt="" className=' w-129px h-46px  rounded-none ' />
 
-<span className="  text-gray-400  cursor-pointer  hover:text-blue-950  ">إنشاء المحتوى</span>
+
 </div>
 
-    
+<span className=" hidden md:block  text-gray-400  cursor-pointer  hover:text-blue-950  ">إنشاء المحتوى</span>
 
-<div className=' flex  items-center w-[40%] border p-1   rounded-xl'>
+<div className='  hidden   md:flex  items-center w-[40%] border p-1   rounded-xl'>
 <CiSearch className='   text-lg  text-gray-500' />
                 <input className='  outline-none rounded-sm    w-[90%] ' type=' text' placeholder=' ماذا تريد ان تتعلم اليوم ' /></div>
 
