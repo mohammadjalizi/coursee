@@ -1,8 +1,8 @@
-import React from 'react'
+
 import { CiSearch } from "react-icons/ci";
 const Navbar1 = () => {
     return (
-        <div className='       md:px-36 flex items-center justify-between'>
+        <div className='      static flex items-center justify-between'>
            <div className=' flex  items-center  gap-8 '> 
             
             <img src=" https://coursee.org/utils/logo.svg" alt="" className=' w-129px h-46px  rounded-none ' />
