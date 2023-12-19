@@ -1,5 +1,6 @@
 
 import './App.css'
+import Frome1 from './assets/pages/Frome1'
 import Leftbar from './assets/pages/Leftbar'
 import Navbar1 from './assets/pages/Navbar1'
 import Navbar2 from './assets/pages/Navbar2'
@@ -10,6 +11,8 @@ function App() {
   return (
     <div className='   md:px-36 '>
 <Navbar1/>
+
+<Frome1/>
 <div className='  rounded-sm   h-full bg-[rgb(247,247,247)] '>
 
 
