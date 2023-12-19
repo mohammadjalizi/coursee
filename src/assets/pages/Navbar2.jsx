@@ -39,16 +39,17 @@ signOut(auth).then(() => {
 
 <p  className="">singh out</p>
 </button>}
-<button>
+
+
+</div>
+{!user&&<div>
+  <button>
 
 <p className="">الکل</p>
 </button>
-
-</div>
-<div>
 <p>محتواي</p>
 <p>محتواي</p>
-</div>
+</div>}
 
     </div>
   )
