@@ -5,6 +5,7 @@ import {  createUserWithEmailAndPassword } from "firebase/auth";
 const Frome1 = () => {
     const[email,Setemail]=useState("")
     const[password,Setpassword]=useState("")
+    const[hasEror,SetEror]=useState(false)
   return (
     <div>
         
@@ -37,10 +38,13 @@ createUserWithEmailAndPassword(auth, email, password)
     const errorCode = error.code;
     const errorMessage = error.message;
     console.log(errorMessage)
+    SetEror(true)
     // ..
   });
 
 }}>  singh in </button>
+
+{hasEror && <h1>eroooor</h1>}
 </form>
 
 
